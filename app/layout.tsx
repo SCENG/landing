@@ -9,9 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "SCENG J",
+  title: "Elijah Sinkamba - Full Stack Engineer & UX Designer",
   description:
-    "Portfolio website design number two",
+    "Digital polymath specializing in full stack development, UX design, and data analysis.",
   openGraph: {
     type: "website",
     siteName: "SCENG J",

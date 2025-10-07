@@ -1,25 +1,19 @@
-import CTABanner from "@/components/cta-banner";
-import FAQ from "@/components/faq";
-import Features from "@/components/features";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import { Navbar } from "@/components/navbar";
-import Pricing from "@/components/pricing";
-import Testimonials from "@/components/testimonials";
+import About from "@/components/about";
+import Technical from "@/components/technical";
 
 export default function Home() {
   return (
-    <>
+    <div className="min-h-screen bg-gradient-to-b from-background via-muted/50 to-background">
       <Navbar />
-      <main className="pt-16 xs:pt-20 sm:pt-24">
+      <main className="max-w-6xl mx-auto px-6">
         <Hero />
-        <Features />
-        <Pricing />
-        <FAQ />
-        <Testimonials />
-        <CTABanner />
+        <About />
+        <Technical />
         <Footer />
       </main>
-    </>
+    </div>
   );
 }
